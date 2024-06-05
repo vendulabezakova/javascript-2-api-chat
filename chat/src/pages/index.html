@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webová aplikace</title>
+  </head>
+  <h1>Odeslat zprávu na Czechichat</h1>
+  <div id="root">
+      <form id="messageForm">
+        <label for="name">Jméno:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="message">Zpráva:</label>
+        <input type="text" id="message" name="message" required>
+        <br>
+        <button type="submit">Odeslat</button>
+      </form>
+  </div>
+  <script src="index.jsx" type="module"></script>
+</html>
